@@ -1,0 +1,11 @@
+[user]
+	name = okazuya
+	email = okazuya@localhost
+[core]
+	editor = /usr/bin/vim -N -u ~/.vimrc -c 'set fenc=utf-8'
+	pager = lv -Ia -Ou8
+[alias]
+	wdiff = diff -w
+	st = status
+	br = branch
+	squash = merge --squash
