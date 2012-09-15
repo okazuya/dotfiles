@@ -9,3 +9,4 @@
 	st = status
 	br = branch
 	squash = merge --squash
+	co = checkout
