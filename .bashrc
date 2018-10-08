@@ -8,6 +8,7 @@ fi
 # User specific aliases and functions
 alias ll="ls -l"
 alias la="ls -a"
+alias be="bundle exec"
 
 . /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
 . /Library/Developer/CommandLineTools/usr/share/git-core/git-completion.bash
