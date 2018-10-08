@@ -12,3 +12,5 @@ MANPATH=/opt/local/man:$MANPATH
 
 export EDITOR=/usr/bin/vim
 
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
