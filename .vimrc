@@ -56,6 +56,9 @@ set ambiwidth=double
 let g:neocomplcache_enable_at_startup = 1
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
+" ruby
+autocmd FileType ruby        setlocal sw=2 sts=2 ts=2 et
+
 " Coldfusion
 autocmd FileType cf :set ic
 autocmd FileType cf :set nosmartcase
