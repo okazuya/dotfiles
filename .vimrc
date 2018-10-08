@@ -38,6 +38,7 @@ set ts=2
 set bs=2
 set sw=2
 set si
+set hlsearch
 
 set termencoding=utf-8
 set encoding=utf-8
