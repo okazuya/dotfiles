@@ -16,6 +16,11 @@ fg() {
 HISTSIZE=10000
 SAVEHIST=10000
 
+autoload -Uz select-word-style
+select-word-style default
+zstyle ':zle:*' word-chars ' /=;@:{}[]()<>,|.'
+zstyle ':zle:*' word-style unspecified
+
 # User specific aliases and functions
 alias ll="ls -l"
 alias la="ls -a"
