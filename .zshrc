@@ -21,6 +21,8 @@ select-word-style default
 zstyle ':zle:*' word-chars ' /=;@:{}[]()<>,|.'
 zstyle ':zle:*' word-style unspecified
 
+bindkey -e
+
 # User specific aliases and functions
 alias ll="ls -l"
 alias la="ls -a"
