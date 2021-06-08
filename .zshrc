@@ -26,6 +26,7 @@ bindkey -e
 # User specific aliases and functions
 alias ll="ls -l"
 alias la="ls -a"
+alias dnsclear="sudo killall -HUP mDNSResponder"
 
 # git-completion
 ###################################################################################################
