@@ -45,3 +45,5 @@ GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWUPSTREAM=auto
 setopt PROMPT_SUBST ; PS1='%F{green}%n@%m%f:%F{blue}%~%f %F{red}$(__git_ps1 "(%s)")%f
 \$ '
+
+unsetopt AUTO_REMOVE_SLASH
