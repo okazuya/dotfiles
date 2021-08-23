@@ -27,6 +27,7 @@ bindkey -e
 alias ll="ls -l"
 alias la="ls -a"
 alias dnsclear="sudo killall -HUP mDNSResponder"
+alias hist="history"
 
 # git-completion
 ###################################################################################################
