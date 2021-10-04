@@ -28,6 +28,7 @@ alias ll="ls -l"
 alias la="ls -a"
 alias dnsclear="sudo killall -HUP mDNSResponder"
 alias hist="history"
+alias find="gfind"
 
 # git-completion
 ###################################################################################################
