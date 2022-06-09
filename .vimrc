@@ -1,33 +1,7 @@
 set nocompatible                " Recommend
 filetype off                    " Required!
 
-if has('vim_starting')
-  set runtimepath+=~/.vim/bundle/neobundle.vim
-endif
-
-call neobundle#rc(expand('~/.vim/bundle'))
-
-NeoBundle 'git://github.com/Shougo/neobundle.vim.git'
-NeoBundle 'git://github.com/Shougo/neocomplcache.git'
-" NeoBundle 'git://github.com/Shougo/vimfiler.git'
-" NeoBundle 'git://github.com/Shougo/unite.vim.git'
-" NeoBundle 'git://github.com/Shougo/clang_complete.git'
-" NeoBundle 'git://github.com/Shougo/echodoc.git'
-" NeoBundle 'git://github.com/Shougo/unite.vim.git'
-" NeoBundle 'git://github.com/Shougo/vim-vcs.git'
-" NeoBundle 'git://github.com/Shougo/vimshell.git'
-" NeoBundle 'git://github.com/Shougo/vinarise.git'
-" NeoBundle git://github.com/tpope/vim-fugitive.git
-
 filetype plugin indent on       " required!
-
-" Installation check.
-if neobundle#exists_not_installed_bundles()
-  echomsg 'Not installed bundles : ' .
-        \ string(neobundle#get_not_installed_bundle_names())
-  echomsg 'Please execute ":NeoBundleInstall" command.'
-  "finish
-endif
 
 set smartcase
 set incsearch
@@ -51,10 +25,6 @@ endif
 
 set noerrorbells
 set ambiwidth=double
-
-" neocomplcache
-let g:neocomplcache_enable_at_startup = 1
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " ruby
 autocmd FileType ruby        setlocal sw=2 sts=2 ts=2 et
