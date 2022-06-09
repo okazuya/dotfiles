@@ -10,3 +10,6 @@
 	br = branch
 	squash = merge --squash
 	co = checkout
+	tree = log --graph --all --format=\"%x09%an%x09%h %d %s\"
+[pager]
+	branch = false
