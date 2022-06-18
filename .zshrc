@@ -49,3 +49,6 @@ setopt PROMPT_SUBST ; PS1='%F{green}%n@%m%f:%F{blue}%~%f %F{red}$(__git_ps1 "(%s
 \$ '
 
 unsetopt AUTO_REMOVE_SLASH
+
+unsetopt automenu
+setopt bashautolist
