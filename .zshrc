@@ -13,6 +13,10 @@ fg() {
     fi
 }
 
+ngrep() {
+	/usr/bin/grep --exclude "package*.json" --exclude-dir "*node_modules*" "$@"
+}
+
 HISTSIZE=10000
 SAVEHIST=10000
 
