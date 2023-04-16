@@ -1,6 +1,6 @@
 [user]
 	name = okazuya
-	email = okazuya@localhost
+	email = 2351632+okazuya@users.noreply.github.com
 [core]
 	editor = /usr/bin/vim -N -u ~/.vimrc -c 'set fenc=utf-8'
 	pager = lv -Ia -Ou8
