@@ -28,8 +28,9 @@ zstyle ':zle:*' word-style unspecified
 bindkey -e
 
 # User specific aliases and functions
-alias ll="ls -l"
-alias la="ls -a"
+alias ls="ls -G"
+alias ll="ls -Gl"
+alias la="ls -Ga"
 alias dnsclear="sudo killall -HUP mDNSResponder"
 alias hist="history"
 alias find="gfind"
