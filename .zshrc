@@ -6,10 +6,10 @@ if [ -f /etc/zshrc ]; then
 fi
 
 fg() {
-    if [[ $# -eq 1 && $1 = - ]]; then
-        builtin fg %-
+    if [[ $# -eq 1 && $1 != %* ]]; then
+        builtin fg %"$1"
     else
-        builtin fg %"$@"
+        builtin fg "$@"
     fi
 }
 
